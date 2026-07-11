@@ -1,8 +1,16 @@
-# shoprupee-webapp
-echo "# shoprupee-webapp" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin git@github.com:tokartheekdevops/shoprupee-webapp.git
-git push -u origin main
+# ShopRupee Web Application
+
+Enterprise DevOps Demo Project
+
+## Stack
+
+- HTML
+- CSS
+- JavaScript
+- Jenkins
+- GitHub
+- AWS
+- Apache
+- Auto Scaling
+- ALB
+- Route53
