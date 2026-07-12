@@ -1,8 +1,74 @@
-<h3>Application Version : __VERSION__</h3>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS Auto Scaling Demo</title>
 
-<h3>Build Number : __BUILD_NUMBER__</h3>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, Helvetica, sans-serif;
+        }
 
-<h3>Git Commit : __GIT_COMMIT__</h3>
+        body{
+            height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            background:linear-gradient(-45deg,#ff512f,#dd2476,#24c6dc,#514a9d,#00c9a7,#ffb347);
+            background-size:400% 400%;
+            animation:gradient 15s ease infinite;
+            color:white;
+        }
 
-<h3>Deployment Date : __DEPLOY_DATE__</h3>
-akshitha
+        @keyframes gradient{
+            0%{background-position:0% 50%;}
+            50%{background-position:100% 50%;}
+            100%{background-position:0% 50%;}
+        }
+
+        .container{
+            width:800px;
+            padding:50px;
+            text-align:center;
+            border-radius:20px;
+            background:rgba(255,255,255,0.15);
+            backdrop-filter:blur(12px);
+            box-shadow:0 12px 35px rgba(0,0,0,.4);
+        }
+
+        h1{
+            font-size:42px;
+            margin-bottom:20px;
+        }
+
+        p{
+            font-size:20px;
+            margin-bottom:20px;
+        }
+
+        h3{
+            margin:12px 0;
+            font-weight:normal;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>AWS Auto Scaling Demo</h1>
+
+        <p>Application successfully deployed!</p>
+
+        <hr style="margin:25px 0; border:1px solid rgba(255,255,255,0.3);">
+
+        <h3>Application Version : __VERSION__</h3>
+        <h3>Build Number : __BUILD_NUMBER__</h3>
+        <h3>Git Commit : __GIT_COMMIT__</h3>
+        <h3>Deployment Date : __DEPLOY_DATE__</h3>
+    </div>
+</body>
+</html>
